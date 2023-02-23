@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        ZStack {
+        VStack {
             Image("rail")
                 .resizable()
             VStack {
@@ -19,6 +19,8 @@ struct ContentView: View {
                 Text("Hello, road!")
                     .font(.title)
             }
+            Image("rail")
+                .resizable()
         }
   
         .padding()
